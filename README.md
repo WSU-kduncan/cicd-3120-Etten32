@@ -63,3 +63,32 @@
 	- (Examples the same as above)
 
 # Part 2: 
+
+## Project Overview:
+
+### Create DockerHub public repo
+
+### Authenticate with DockerHub via CLI using DockerHub credentials
+
+### Configuring GitHub Secrets
+
+### Behavior of GitHub workflow
+
+# Part 3:
+
+## Overview:
+
+### Container restart script
+
+### Webhook task definition file
+
+### Setting up a webhook on the server
+
+### Setting up a notifier in GitHub or DockerHub
+
+# Part 4:
+
+## Diagram:
+
+PICTURE OF DIAGRAM HERE!
+[DESCRIPTION](PATH)
