@@ -68,11 +68,39 @@
 
 ### Create DockerHub public repo
 
+	- In hub.docker.com __username__/repositories hit the "create repository" button
+
+	- Fill in the apropriate fields
+
+	- Select "Public repo" and create
+
 ### Authenticate with DockerHub via CLI using DockerHub credentials
+
+	- Go to hub.docker.com "Account Settings / Security" and hit the "New Access Token"
+
+	- Add description
+
+	- Choose permissions desired (for this project, just 'Read' and 'Write' should be required)
+
+	- Copy the token code into a storage file
+
+	- Use the code in place of a password when using DockerHub credentials to utilize
 
 ### Configuring GitHub Secrets
 
+	- Go to github.com repository settings -> Secrets -> Actions
+
+	- Create a repository secret using the "New repository secret" button
+
+	- Create a secret for both DOCKER_PASSWORD (or token if used) and DOCKER_USERNAME
+
+	- Set the appropriate corasponding information as the secret body
+
 ### Behavior of GitHub workflow
+
+	- The workflow for this project builds a new image and pushes it to dockerhub on every time a push is made to main
+
+	- ?Variables to change?
 
 # Part 3:
 
