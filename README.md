@@ -100,7 +100,7 @@
 
 	- The workflow for this project builds a new image and pushes it to dockerhub on every time a push is made to main
 
-	- ?Variables to change?
+	- Variables include 'secrets.DOCKER_USERNAME' and 'secrets.DOCKER_PASSWORD' github secrets to store username and password information
 
 # Part 3:
 
