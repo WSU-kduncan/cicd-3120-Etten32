@@ -108,6 +108,14 @@
 
 ### Container restart script
 
+	- Script perfomrs the following:
+
+	- Stops/removes current container
+
+	- Pulls new image from etten32/firstrepo:latest
+
+	- Runs new container from image
+
 ### Webhook task definition file
 
 ### Setting up a webhook on the server
