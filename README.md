@@ -108,9 +108,11 @@
 
 ### Container restart script
 
-	- Script perfomrs the following:
+	- Script performs the following:
 
-	- Stops/removes current container
+	- Stops current container
+
+	- Removes stopped container
 
 	- Pulls new image from etten32/firstrepo:latest
 
@@ -118,9 +120,28 @@
 
 ### Webhook task definition file
 
+	- Webhook json file defines the following:
+
+	- id: the key to define the trigger
+
+	- execute-command: full path to restart script
+
+	- command-working-directory: working dir
+
+	- response-message: message displayed when quried sucessfully
+
 ### Setting up a webhook on the server
 
+	- !!!How'd you prepar the server for doing stuff
+
 ### Setting up a notifier in GitHub or DockerHub
+
+	- !!!How'd you get a webhook on DockerHub
+	- Navigate to hub.docker.com/repositories -> __repo_name__ -> Webhooks
+
+	- Type in an id name in "Webhook name" feild and the following url in "Webhook URL"
+
+	- http://__ip_of_instance__:9000/hooks/__custom_key_name__
 
 # Part 4:
 
