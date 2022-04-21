@@ -132,11 +132,32 @@
 
 ### Setting up a webhook on the server
 
-	- !!!How'd you prepar the server for doing stuff
+	- Installed and set up the following:
+
+	- sudo apt update
+
+	- sudo apt install docker.io
+
+	- (Set up and created keypairs to link to GitHub)
+
+	- git clone git@github.com:WSU-kduncan/cicd-3120-Etten32.git
+
+	- sudo install npm
+
+	- npm install resume-cli
+
+	- npx resume init
+
+	- npx resume export resume.html
+
+	- sudo apt install webhook
+
+	- (Set up Webhook task definition file)
+
+	- webhook -hooks webhook.json -verbose (In the webhook's directory [home/ubuntu/cicd-3120-Etten/deploment/.])
 
 ### Setting up a notifier in GitHub or DockerHub
 
-	- !!!How'd you get a webhook on DockerHub
 	- Navigate to hub.docker.com/repositories -> __repo_name__ -> Webhooks
 
 	- Type in an id name in "Webhook name" feild and the following url in "Webhook URL"
