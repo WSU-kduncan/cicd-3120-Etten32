@@ -6,21 +6,21 @@
 
 ### Docker instalation:
 
-	* Use the Docker Desktop install wizard to install Docker Desktop on Windows
+* Use the Docker Desktop install wizard to install Docker Desktop on Windows
 
-	* Go to settings in Docker Desktop, and make sure it is set to use WSL2
+* Go to settings in Docker Desktop, and make sure it is set to use WSL2
 
-	* apt install Docker on WSL2
+* apt install Docker on WSL2
 
 ### Container building:
 
-	* To build the container run the following command
+* To build the container run the following command
 
-	* sudo docker build -t __NAME__:__VERSION-#__ -t __NAME__:latest .
+* sudo docker build -t __NAME__:__VERSION-#__ -t __NAME__:latest .
 
-	* Example of __NAME__: robwebsite 
+* Example of __NAME__: robwebsite 
 
-	* Example of __VERSION-#__: v0.2.4 (OR) latest
+* Example of __VERSION-#__: v0.2.4 (OR) latest
 
 ### Container running:
 
