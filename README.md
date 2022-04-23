@@ -169,4 +169,4 @@
 ## Diagram:
 
 PICTURE OF DIAGRAM HERE!
-[CID-Diagram](./ceg3120-FinalProject.jpg)
+![CID-Diagram](./ceg3120-FinalProject.jpg)
