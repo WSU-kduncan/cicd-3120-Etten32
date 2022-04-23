@@ -142,14 +142,6 @@
 
 - git clone git@github.com:WSU-kduncan/cicd-3120-Etten32.git
 
-- sudo install npm
-
-- npm install resume-cli
-
-- npx resume init
-
-- npx resume export resume.html
-
 - sudo apt install webhook
 
 - (Set up Webhook task definition file)
